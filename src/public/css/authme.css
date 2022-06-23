@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+* {
+	margin: auto; padding: auto;
+	font-size: 16px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+body {
+	background: #1C2333;
+	color: white;
+	height: 100%;
+}
+.repl-auth {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	padding: 16px;
+	min-width: 150px;
+	border-radius: 10px;
+	background: #4372df;
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+} 
+.menu {
+	color: #fff;
+	background: #0E1525;
+	padding: 16px;
+	max-width: 75%;
+	min-width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99999;
+	border-radius: 5px;
+	border: 0.1px solid gray;
+}
+.menu p {
+	width: 80%;
+	margin: 20px;
+	max-width: 270px;
+}
+.openFullScreen {
+	color: #fff;
+	background: #004182;
+	max-height: 20px;
+	max-width: 200px;
+	padding: 8px;
+	text-align: center;
+	border-radius: 10px;
+	float: right;
+}
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 300px;
+	text-align: center;
+}
+form h2 {
+	font-size: 25px;
+}
+form input {
+	margin-top: 20px;
+	background: white;
+	border-radius: 3px;
+	border: none;
+	width: 200px;
+}
+.comments {
+	height: 100%;
+}

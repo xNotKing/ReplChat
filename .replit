@@ -1,0 +1,11 @@
+onBoot="php artisan serve -q --host 0.0.0.0"
+run = "bash start.sh"
+[languages.html]
+pattern = "*"
+[languages.css]
+pattern = "*"
+syntax = "css"
+[languages.javascript]
+pattern = "*"
+[nix]
+channel = "unstable"
